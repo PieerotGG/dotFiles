@@ -28,6 +28,9 @@ call dein#add('critiqjo/lldb.nvim', { 'on_ft': ['rust'] })
 " File templates
 call dein#add('aperezdc/vim-template')
 
+" Markdown live preview in html
+call dein#add('JamshedVesuna/vim-markdown-preview')
+
 " Rust config plugin
 let rust = { 'on_ft': 'rust' }
 call dein#add('rust-lang/rust.vim', rust)
